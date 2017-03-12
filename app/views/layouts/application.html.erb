@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Anna Dimitrova - Full-Stack Ninja</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/103c912875.js"></script>
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +13,14 @@
   </head>
 
   <body>
+    <header id="main_navigation" class="clearfix">
+      <a href="#" class="name">Anna Dimitrova</a>
+      <nav>
+        <%= link_to "Articles", posts_path %>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
     <%= yield %>
   </body>
 </html>
