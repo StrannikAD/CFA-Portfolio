@@ -1,24 +1,63 @@
-# README
+# Planning my portfolio
+1. Answer Questions
+  -What am I building?
+  -Who am I building it for?
+  -What features for I need to have?
+2. User Stories
+3. Model the Database
+4. Think through the pages I need in my application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Questions
 
-* Ruby version
+1. I am building a porfolio: a place where I can share examples of my work, blog and have people contact me.
+2. I am building it for myself, the community and potential employers.
+3.
+- Posts
+  - Create / Edit /Destroy
+  - Markdown
+  - Syntax highlighting
+  - Comments (Disqus)
 
-* System dependencies
+- Projects
+  - Create / Edit /Destroy
 
-* Configuration
+- Contact
+  - Contact Form
+  - Sendgrid
 
-* Database creation
+- User (Devise)
 
-* Database initialization
 
-* How to run the test suite
+## User Stories
 
-* Services (job queues, cache servers, search engines, etc.)
+- As a user, I want to be able to tell visitors about myself so that visitors and potentials employers can get a better sense for what I am like.
 
-* Deployment instructions
+- As a user, I want to show the visitors and potential employers examples of my work, or stuff I've built.
+- As a user, I want to show the visitors and potential employers examples of my work, or stuff I've built.
+- As a user, I want to be able to have visitors contact me through a form on my site.
+- As a user I want to be able to create posts so that I can share what I am learning on my blog.
+- As a user, I want to be able to edit & destroy post, so that I can manage my blog.
 
-* ...
+## Modeling the Data
+
+**Post**
+      title:string
+      content:text
+
+**Project**
+      title:string
+      description:text
+      link:string
+
+**User**
+
+
+## Think through the pages I need in my application.
+
+- Home
+- Posts#index
+- Post#Show
+- Projects
+- Projects#Show
+- Contact
