@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'pygments.rb', '~> 1.1'
 gem 'redcarpet', '~> 3.4'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
